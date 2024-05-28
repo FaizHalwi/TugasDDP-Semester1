@@ -1,0 +1,26 @@
+Procedure Selisih dua tanggal
+	T3.mm, 13.dd : integer;)
+
+Deklarasi
+	T1, T2, T3: Tanggal
+	Totalharil, Totalhari2, SelisihHari : integer
+	wwwwww
+
+Sisa integer
+Algoritma
+	Input (T1.dd, II. yy)
+	Input (T2.dd, 12.yy)
+		Totalharil ← (T1.yy*365 ) + ( T1.mm*30) + T1.dd Totalhari2 ← ( 12.yy*365 ) + ( 12.mm*30) + T2.dd
+		SelisihHari Totalhari2
+		-
+	(Input yy, mm, dd: integer; output 13.yy,
+ 	ww
+	T3.yy SelisihHari div 365
+
+Sisa SelisiHari mod 365
+	EndProcedure
+
+Totalharil
+	13.mmSisa diy 30
+	T3.dd Sisa mod 30
+   Output T3.yy, 13.mm,13.dd)

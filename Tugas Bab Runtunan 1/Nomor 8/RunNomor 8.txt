@@ -1,0 +1,24 @@
+1.
+Input tinggibadan
+sepuluhpersen = tinggibadan * 10 /100
+kurangbadan = tinggibadan - 100
+ideal = kurangbadan - sepuluhpersen
+
+2.
+Input panjangmeter
+yard = panjangmeter * perbandinganyardkemeter
+inchi = panjang meter * perbandinganinchikemeter
+kaki = panjang meter * perbandingankakikemeter
+NB: perbandingan tinggal masukan angka yang tertera pada pertanyaan
+
+3.
+Input Nama
+Input Umur
+dst
+Output Nama, Umur ...Dst
+
+4.
+Input Detik
+Menit =  ﻿﻿
+Jam =  
+Hari =   

@@ -1,0 +1,17 @@
+(jumlah kelahiran + jumlah berimigrasi) - (jumlah kematian & jumlah berimigrasi)
+
+DEKLARASI
+jumlah kelahiran 
+jumlah berimigrasi
+jumlah kematian
+jumlah berimigrasi;
+
+DESKRIPSI
+read(jumlah kelahiran,jumlah berimigrasi)
+Tentukan Perhitungan 
+(Jumlah kelahiran + jumlah berimigrasi) - jumlah kematian dan berimigrasi
+hasil
+
+end
+end
+end

@@ -1,0 +1,17 @@
+Algoritma KonversiDetik
+    {dibaca jam dalam detik, kemudian menampilkan dalam bentuk jam menit detik}
+
+Deklarasi:
+    type jam : record <j, m, d : integer>
+    waktu : jam
+    detik : integer
+
+Deskripsi:
+    read(detik)
+    
+    waktu.j <- detik/3600
+    detik <- detik - (waktu.j * 3600)
+    waktu.m <- detik/60
+    waktu.d <- detik - (waktu.m * 60)
+    
+    write(waktu)

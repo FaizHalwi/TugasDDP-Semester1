@@ -1,0 +1,46 @@
+PROGRAM Soal_No7_Halaman_110;
+
+USES CRT;
+
+VAR
+   nilai_uang     : INTEGER;
+   p1000          : INTEGER;
+   p500           : INTEGER;
+   p100           : INTEGER;
+   p50            : INTEGER;
+   p25            : INTEGER;
+   sisa_nilai_uang: INTEGER;
+
+BEGIN
+
+     WRITE('Masukkan nilai uang : ');READLN(nilai_uang);
+
+     p1000:=nilai_uang DIV 1000;
+
+     sisa_nilai_uang:=nilai_uang MOD 1000;
+
+     p500:=sisa_nilai_uang DIV 500;
+
+     sisa_nilai_uang:=sisa_nilai_uang MOD 500;
+
+     p100:= sisa_nilai_uang DIV 100;
+
+    sisa_nilai_uang:=sisa_nilai_uang MOD 100;
+
+     p50:=sisa_nilai_uang DIV 50;
+
+     sisa_nilai_uang:=sisa_nilai_uang MOD 50;
+
+     p25:=sisa_nilai_uang DIV 25;
+
+     sisa_nilai_uang:=sisa_nilai_uang MOD 25;
+
+     WRITELN(p1000,' buah pecahan Rp.1000');
+     WRITELN(p500,' buah pecahan Rp.500');
+     WRITELN(p100,' buah pecahan Rp.100');
+     WRITELN(p50,' buah pecahan Rp.50');
+     WRITELN(p25,' buah pecahan Rp.25');
+
+
+     READLN;
+END.

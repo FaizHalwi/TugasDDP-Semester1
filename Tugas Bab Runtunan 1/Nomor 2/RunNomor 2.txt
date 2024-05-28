@@ -1,0 +1,21 @@
+VAR
+   tahun       : INTEGER;
+   bulan       : INTEGER;
+   Hari        : INTEGER;
+   jumlah_hari : INTEGER;
+   sisa_hari   : INTEGER;
+
+BEGIN
+   WRITE('Jumlah Hari = '); READLN(jumlah_hari);
+   WRITELN('---------------------');
+   tahun      := jumlah_hari DIV 365;
+   sisa_hari  := jumlah_hari MOD 365;
+   bulan      := sisa_hari DIV 30;
+   hari       := sisa_hari MOD 30;
+   WRITELN('Hasil Konversi : ');
+   WRITELN(tahun ,' Tahun');
+   WRITELN(bulan ,' Bulan');
+   WRITELN(hari ,' Hari');
+
+  READLN;
+END.

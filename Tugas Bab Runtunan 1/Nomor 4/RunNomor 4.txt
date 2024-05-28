@@ -1,0 +1,33 @@
+PROGRAM pertukaran_nilai;
+
+USES CRT;
+
+VAR
+   x : INTEGER;
+   y : INTEGER;
+   z : INTEGER;
+   n : INTEGER;
+
+BEGIN
+
+   //Input
+   WRITELN('------------------------');
+   WRITE('Masukan Nilai X : ');READLN(x);
+   WRITE('Masukan Nilai Y : ');READLN(y);
+   WRITE('Masukan Nilai Z : ');READLN(z);
+   WRITELN('------------------------');
+   WRITELN('X,Y,Z -> Y,Z,X ');
+   WRITE(X,',',Y,',',Z);
+   WRITE(' -> ');
+
+   //Proses
+    N := X;
+    X := Y;
+    Y := Z;
+    Z := N;
+
+    //Output
+    WRITELN(X,',',Y,',',Z);
+
+   READLN;
+END.

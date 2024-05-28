@@ -1,0 +1,26 @@
+PROGRAM Soal_No9_Hal_110;
+
+USES CRT;
+VAR
+   Panjang_meter: REAL;
+   Inchi        : REAL;
+   kaki         : REAL;
+   Yard         : REAL;
+   Mm           : REAL;
+   Cm           : REAL;
+
+BEGIN
+    WRITE('Masukan Panjang dalam Satuan Meter : ');READLN(Panjang_meter);
+
+    Mm:= Panjang_meter * 1000;
+    Cm:= Panjang_meter * 100;
+    Inchi:= mm/25.4;
+    Kaki:= cm/30.48;
+    Yard:= panjang_meter/0.9144;
+
+    WRITELN('inchi = ',inchi:4:2);
+    WRITELN('kaki  = ' ,kaki:4:2);
+    WRITELN('yard  = ' ,Yard:4:2);
+
+    READLN;
+END.

@@ -1,0 +1,27 @@
+PROGRAM Soal_no8_hal_110_mengonversi_jarak;
+
+USES CRT;
+VAR
+   jarak     :INTEGER;
+   km        :INTEGER;
+   m         :INTEGER;
+   cm        :INTEGER;
+   sisa_jarak:INTEGER;
+
+BEGIN
+     WRITE( 'jarak: ');READLN(jarak);
+     km             := jarak DIV 100000;
+
+     sisa_jarak     := jarak MOD 100000;
+
+     m              := sisa_jarak DIV 100;
+
+     sisa_jarak     := sisa_jarak MOD 100;
+
+     cm             := sisa_jarak;
+
+     WRITELN(km,' Km + ',m ,' m + ' ,cm,' cm ');
+
+
+READLN;
+END.
