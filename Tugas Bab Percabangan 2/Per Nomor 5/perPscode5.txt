@@ -1,0 +1,7 @@
+// Pscode
+masukan char a dan int b
+program 
+cetak masukan karakter angka
+proses karakter
+cetak karakter 
+end

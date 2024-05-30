@@ -1,0 +1,6 @@
+// PsCODE 
+masukan variabel a,b,c
+cetak masukan nilai variabel
+proses perhitungan variabel
+end
+

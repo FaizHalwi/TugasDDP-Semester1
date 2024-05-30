@@ -1,0 +1,23 @@
+masukan (pembelian, diskon)
+JIKA pembelian >= 100000 MAKA
+     diskon (pembelian / 20)
+SEBALIKNYA
+     pembelian(0)
+AKHIR JIKA
+pembayaran ← pembelian - diskon
+tampilkan(pembayaran)
+Terakhir, Setelah flowchartnya, pseudocode selesai dibuat, selanjutnya mari dituangkan ke dalam kode program, sehingga menjadi
+
+package com.wordpress.bmadi.algoritma;
+public class Pembayaran {
+    public static void main(String[] args){
+        int pembelian = 120000;
+        int diskon;
+        if(pembelian >= 100000){
+            diskon = pembelian / 20;
+        }else {
+            diskon = 0;
+        }    
+    System.out.println("pembayaran Rp. " + (pembelian - diskon));
+    }
+}

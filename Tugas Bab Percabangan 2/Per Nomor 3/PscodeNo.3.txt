@@ -1,0 +1,36 @@
+isi nilai ke variabel: a, b, c
+
+sekarang kemungkinan urutannya:
+abc
+acb
+cab
+bac
+bca
+cba
+
+jika b < a {
+tukar a <-> b
+}
+
+sekarang kemungkinan urutannya:
+abc
+acb
+cab
+
+jika c < a {
+tukar a <-> c
+}
+
+sekarang kemungkinan urutannya:
+abc
+acb
+
+jika c < b {
+tukar b <-> c
+}
+
+sekarang urutannya:
+abc
+
+karena diinginkan dari terbesar, maka print dgn urutan: cba
+
