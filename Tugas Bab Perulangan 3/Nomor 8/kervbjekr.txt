@@ -1,0 +1,11 @@
+//program
+
+variabel
+pixel = integer
+
+algotritma
+printf
+if
+elseif
+printf
+return

@@ -1,0 +1,26 @@
+//program
+Variabel
+integer
+n = integer
+i = integer
+s = integer
+printf
+for
+printf
+perhitungan 
+printf
+getch
+return
+
+
+
+
+
+
+
+
+
+
+
+
+

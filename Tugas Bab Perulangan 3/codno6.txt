@@ -1,0 +1,14 @@
+//program
+
+variabel
+float belanja
+	diskon
+	nilaidiskon
+	bayar
+
+printf
+printf
+if
+else
+printf
+printf

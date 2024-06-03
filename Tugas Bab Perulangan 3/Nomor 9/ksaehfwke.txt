@@ -1,0 +1,27 @@
+//program
+
+variabel
+integer = tinggi
+integer = berat
+integer = ideal
+integer = x
+
+algoritma
+printf
+printf
+perhitungan
+if
+else
+return
+
+
+
+
+
+
+
+
+
+
+
+

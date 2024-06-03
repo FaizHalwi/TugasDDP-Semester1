@@ -1,0 +1,35 @@
+//program
+
+variabel
+sisa = integer
+penarikan = integer
+saldo = integer
+
+algoritma
+printf
+printf
+if
+printf
+else
+if
+printf
+return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

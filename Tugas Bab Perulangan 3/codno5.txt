@@ -1,0 +1,12 @@
+//program
+
+variabel
+a=char
+b=integer
+
+algoritma
+printf
+if
+else
+printf
+return

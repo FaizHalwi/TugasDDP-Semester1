@@ -1,0 +1,38 @@
+//program
+
+variabel
+typrdef struct
+dd = integer
+mm = integer
+yy = integer
+tanggal = integer
+
+tanggal11
+tanggal12
+selisih = integer
+hari = integer
+hari2 = integer
+hari3 = integer
+x = integer
+y = integer
+
+Algoritma
+printf
+printf
+printf
+printf
+printf
+printf
+
+switch
+case
+break
+
+
+
+
+
+
+
+
+

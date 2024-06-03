@@ -1,0 +1,13 @@
+//program
+
+x=integer
+
+algoritma
+printf
+
+if
+elseif
+elseif
+elseif
+else
+return
